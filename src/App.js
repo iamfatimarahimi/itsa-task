@@ -1,7 +1,8 @@
 import './App.css';
 import './script.js';
+import Swiper from'./Swiper.js';
+//Import Images
 import logoPic from './images/logo.png';
-import slide1 from './images/computer background.jpg';
  export default function App() {
   return (
     <div classNameName="App">
@@ -21,28 +22,7 @@ import slide1 from './images/computer background.jpg';
         </div>
       </header>
       <section className="slider">
-        <div className="swiper mySwiper">
-          <div className="swiper-wrapper">
-            <div className="swiper-slide wrapper">
-              <img src={slide1}  alt="slide1"/>
-            </div>
-            <div className="swiper-slide wrapper">
-              <img src="images/evening-landscape-minimal-4k-kl.jpg"  />
-            </div>
-            <div className="swiper-slide wrapper">
-              <img src="images/10.jpg"  />
-            </div>
-            <div className="swiper-slide wrapper">Slide 4</div>
-            <div className="swiper-slide wrapper">Slide 5</div>
-            <div className="swiper-slide wrapper">Slide 6</div>
-            <div className="swiper-slide wrapper">Slide 7</div>
-            <div className="swiper-slide wrapper">Slide 8</div>
-            <div className="swiper-slide wrapper">Slide 9</div>
-          </div>
-          <div className="swiper-button-next"></div>
-          <div className="swiper-button-prev"></div>
-          <div className="swiper-pagination"></div>
-        </div>
+        <Swiper />
       </section>
     </div>
     </div>
