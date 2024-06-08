@@ -1,6 +1,7 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+//Import css
+import './App.css';
 // Import Swiper styles
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
@@ -19,7 +20,11 @@ export default () => {
       slidesPerView={3}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-      autoplay={true}
+      loop={true}
+                autoplay={{
+                    delay: 500,
+                    disableOnInteraction: false
+                }}
     >
       <SwiperSlide><img src={slide1}  alt="slide1"/></SwiperSlide>
       <SwiperSlide><img src={slide2}  alt="slide1"/></SwiperSlide>
