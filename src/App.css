@@ -77,71 +77,26 @@ header {
 
 }
 
-/*  */
-.slider {
-  /* position: relative; */
+
+
+
+/* swiper */
+.swiper {
+  position: relative;
+  width: 400%;
+  height: 500px;
+ 
+}
+.swiper .slideImage {
   position: absolute;
-  top: 0;
   left: 0;
   width: 100%;
-  background: #000D65;
-  margin: 0 auto;
-  min-height: 100vh;
-  text-align: center;
-  color: #fff;
-  /* padding: 20px; */
-  z-index: -1;
+  height: 100%;
+  object-fit: cover;
 }
-
-/* .wrapper {
-    width: 300px;
-    height: 350px;
-} */
-
-.swiper-wrapper .wrapper img {
+/* .swiper-wrapper .wrapper img {
   border-radius: 5px;
   width: 100%;
   height: 500px;
   object-fit: cover;
-}
-
-.swiper-button-next {
-  margin: 5px auto;
-  right: 0;
-}
-
-.swiper-button-prev {
-  margin: 4px auto;
-  left: 0;
-}
-
-.swiper-pagination {
-  top: 15px;
-}
-
-/* swiper */
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.swiper {
-  margin-left: auto;
-  margin-right: auto;
-}
+} */
