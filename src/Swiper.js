@@ -7,18 +7,18 @@ import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 // import 'swiper/css/Autoplay ';
 //Import images
-import slide1 from './images/computer background.jpg';
+import slide1 from './images/background1.jpg';
 import slide2 from './images/evening-landscape-minimal-4k-kl.jpg';
 import slide3 from './images/10.jpg';
 import slide4 from './images/Slide4.png';
 
-
 export default () => {
   return (
+    <div className="Swiper">
     <Swiper
       modules={[Autoplay]}
       spaceBetween={50}
-      slidesPerView={3}
+      slidesPerView={1}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
       loop={true}
@@ -35,6 +35,14 @@ export default () => {
               <SwiperSlide><img className='slideImage' src={slide3}  alt="slide3"/></SwiperSlide>
               <SwiperSlide><img className='slideImage' src={slide4}  alt="slide4"/></SwiperSlide>
         </div>
+        
     </Swiper>
-  );
+    <div className="search">
+          <input type="text" placeholder="...جستجو " />
+          <div className="search-wrapper">
+            <i className="bx bx-search-alt-2"></i>
+          </div>
+        </div>
+        </div>
+  )
 };

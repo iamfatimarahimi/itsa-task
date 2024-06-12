@@ -1,21 +1,25 @@
 import './App.css';
 import Swiper from'./Swiper.js';
-import SlideMenu from './SlideMenu.js'
+import Product from'./Product.js';
+import SlideMenu from './SlideMenu.js';
+import ProductIntrodus from './ProductIntrodus.js';
 //Import Images
-// import logoPic from './images/logo.png';
  export default function App() {
   return (
-    <div classNameName="App">
+    <div className="App">
+          
           <div className="container">
       <header>
         <SlideMenu />
       </header>
       <section className="slider">
-        {/* <Swiper /> */}
-        {/* <div className="search">
-          <input type="text" placeholder="Search" />
-          <i className="bx bx-search-alt-2"></i>
-        </div> */}
+        <Swiper />
+      </section>
+      <section className='products'>
+        <Product />
+      </section>
+      <section className='product-introdus'>
+        <ProductIntrodus />
       </section>
     </div>
     </div>

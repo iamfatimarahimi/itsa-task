@@ -1,0 +1,110 @@
+ .buttons{
+  position: relative;
+  
+}
+#login {
+    display: inline-block;
+    color: #fff;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+    &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(141, 115, 244, 1) 0%, rgba(90, 176, 255, 1) 100%);
+    border-radius: 30px;
+    z-index: -2;
+    }
+
+    &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #fff;
+    transition: all .3s;
+    border-radius: 30px;
+    z-index: -1;
+    }
+
+    &:hover {
+            color: #000;
+
+        &:before {
+            width: 100%;
+        }
+    }
+}
+#submit {
+    display: inline-block;
+    color: #000;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        border-radius: 30px;
+        z-index: -2;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background: linear-gradient(90deg, rgba(141, 115, 244, 1) 0%, rgba(90, 176, 255, 1) 100%);
+        transition: all .3s;
+        border-radius: 30px;
+        z-index: -1;
+    }
+
+    &:hover {
+        color: #000;
+
+        &:before {
+            width: 100%;
+        }
+    }
+}
+.buttons button {
+    
+    background: none;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 30px;
+    border: 2px solid rgb(90, 176, 255);
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+/*
+
+
+#login{
+  background: linear-gradient(90deg, rgba(90, 176, 255, 1) 0%, rgba(141, 115, 244, 1) 100%);
+}
+#login:hover{
+  background: none;
+  border: 2px solid rgb(90, 176, 255);
+}
+#submit:hover{
+  background: linear-gradient(90deg, rgba(141, 115, 244, 1)  0%,rgba(90, 176, 255, 1)  100%);
+} */
