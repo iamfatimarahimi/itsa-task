@@ -93,6 +93,7 @@ body{
   height: 80px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: #fff;
 }
 .title-link{
   color:#000;
@@ -108,4 +109,10 @@ body{
 /* product-introdus */
 .product-introdus{
   margin-top: 200px;
+}
+.columen-left1{
+  margin: 50px;
+}
+.productIntrodus .row{
+  margin: 100px;
 }
