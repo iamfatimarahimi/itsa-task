@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
+:root {
+  --primary-color:#595c5f;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -95,6 +97,9 @@ body{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background: #fff;
 }
+.icon-image:hover{
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
 .title-link{
   color:#000;
   text-decoration: none;
@@ -102,17 +107,53 @@ body{
 .item-image{
   padding: 15px;
 }
-.title-product{
+h1{
   margin-top: 40px;
   font-weight: bold;
 }
 /* product-introdus */
 .product-introdus{
+  text-align: center;
   margin-top: 200px;
+  color:var(--primary-color);
 }
 .columen-left1{
   margin: 50px;
 }
 .productIntrodus .row{
-  margin: 100px;
+  margin-top: 200px;
+}
+.productIntrodus h2{
+  font-weight: 700;
+}
+/* Accordion */
+.accordion-qustion{
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.accordion-header {
+  color: var(--primary-color);
+  padding: 10px;
+  border-bottom: 2.5px solid;
+  border-image: linear-gradient(to right, rgba(90, 176, 255, 1), rgba(141, 115, 244, 1)) 1;
+  cursor: pointer;
+  position: relative;
+  
+}
+.accordion-header:hover {
+  /* background-color: #eee; */
+}
+.accordion-indicator {
+  color: rgb(28, 106, 215);
+  position: absolute;
+  font-size: 30px;
+  right: 30px;
+  top: 24px;
+}
+.accordion-body {
+  color: var(--primary-color);
+  text-align: left;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }

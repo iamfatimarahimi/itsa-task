@@ -33,9 +33,9 @@ export default function Menu(){
                 دسته بندی خدمات
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">مراقبت پوستی</a></li>
+                <li><a class="dropdown-item" href="#">تمیزی خانه</a></li>
+                <li><a class="dropdown-item" href="#">تعمیر</a></li>
               </ul>
             </li>
           </ul>
