@@ -1,7 +1,7 @@
-import './App.css';
-import './Button.css';
-import React from 'react';
-import logoPic from './images/logo.png';
+import '../App.css'
+import './Button.css'
+import logoPic from '../images/logo.png';
+import {Link} from 'react-router-dom'
 export default function Menu(){
   return(
     <div className="header">
@@ -23,7 +23,7 @@ export default function Menu(){
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">تماس با ما</a>
+              <Link to={"/Contact"} className='nav-link'>تماس با ما</Link>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">درباره فروشگاه</a>

@@ -1,16 +1,16 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 //Import css
-import './App.css';
+import '../App.css';
 // Import Swiper styles
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 // import 'swiper/css/Autoplay ';
 //Import images
-import slide1 from './images/background1.jpg';
-import slide2 from './images/evening-landscape-minimal-4k-kl.jpg';
-import slide3 from './images/background2.webp';
-import slide4 from './images/Slide4.png';
+import slide1 from '../images/background1.jpg';
+import slide2 from '../images/evening-landscape-minimal-4k-kl.jpg';
+import slide3 from '../images/background2.webp';
+import slide4 from '../images/Slide4.png';
 
 export default () => {
   return (

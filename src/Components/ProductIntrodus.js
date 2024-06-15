@@ -1,11 +1,18 @@
-import image3 from './images/image 3.jpg';
-import image4 from './images/image 4.png';
-import image5 from './images/image 5.jpg';
+import image3 from '../images/image_3.png';
+import image4 from '../images/image_4.png';
+import image5 from '../images/image_5.png';
 export default function productIntrodus(){
     return(
         <div className="productIntrodus">
+          <div className="bubbles">
             <div className="container">
       <div className="row">
+        <div className="bubble img-fluid"></div>
+        <div className="bubble img-fluid"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
         <div className="col-6">
           <img
             className="img-fluid rounded p-2"
@@ -26,6 +33,7 @@ export default function productIntrodus(){
       </div>
 
       <div className="row mt-10">
+        
         <div className="col-6">
           <h2 className="mb-3">تمیزی خانه را به ما بسپارید</h2>
           <p className="">
@@ -66,6 +74,7 @@ export default function productIntrodus(){
          </div>
         </div>
       </div>
+    </div>
     </div>
   </div> 
     )

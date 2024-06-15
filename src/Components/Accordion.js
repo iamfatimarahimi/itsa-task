@@ -10,7 +10,7 @@ export default function Accordion({
    const isOpened = title === accordionOpened; 
   return (
     <div className="accordion">
-      
+      <div className="container">
       <div
         onClick={() => setAccordionOpened(title)}
         className="accordion-header"
@@ -19,6 +19,7 @@ export default function Accordion({
         <div className="accordion-indicator">{isOpened ? <i class='bx bx-chevron-up' ></i> : <i class='bx bx-chevron-down'></i>}</div>
       </div>
       {isOpened && <div className="accordion-body">{body}</div>}
+      </div>
     </div>
   );
 }

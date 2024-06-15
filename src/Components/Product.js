@@ -1,11 +1,11 @@
-import icon1 from './images/icon-1.webp';
-import icon2 from './images/icon-2.webp';
-import icon3 from './images/icon-3.webp';
-import icon4 from './images/icon-4.webp';
-import icon5 from './images/icon-5.webp';
-import icon6 from './images/icon-6.webp';
-import icon7 from './images/icon-7.webp';
-import icon8 from './images/icon-8.webp';
+import icon1 from '../images/icon-1.webp';
+import icon2 from '../images/icon-2.webp';
+import icon3 from '../images/icon-3.webp';
+import icon4 from '../images/icon-4.webp';
+import icon5 from '../images/icon-5.webp';
+import icon6 from '../images/icon-6.webp';
+import icon7 from '../images/icon-7.webp';
+import icon8 from '../images/icon-8.webp';
 export default function ImageFluid(){
     return(
     <div className="imageFluid">

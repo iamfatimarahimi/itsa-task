@@ -1,0 +1,48 @@
+/* Bubble BG */
+.bubbles {
+    position: relative;
+    overflow: hidden;
+}
+
+.bubble {
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(90, 176, 255, 1) 0%, rgba(141, 115, 244, 1) 100%);
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    opacity: 0.3;
+}
+
+.bubble:nth-child(1) {
+    position: absolute;
+    left: 48%;
+    top: 5%;
+}
+
+.bubble:nth-child(2) {
+    position: absolute;
+    left: 52%;
+    top: 5%;
+}
+.bubble:nth-child(3) {
+    position: absolute;
+    left: 15%;
+    top: 35%;
+}
+
+.bubble:nth-child(4) {
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+.bubble:nth-child(5) {
+    position: absolute;
+    left: 48%;
+    top: 65%;
+}
+.bubble:nth-child(6) {
+    position: absolute;
+    left: 52%;
+    top: 65%;
+}
+/* End */

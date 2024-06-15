@@ -1,10 +1,13 @@
 import React, { useState } from "react";
+import { HashRouter as Router , Routes , Route } from "react-router-dom"; 
 import './App.css';
-import Swiper from'./Swiper.js';
-import Product from'./Product.js';
-import SlideMenu from './SlideMenu.js';
-import ProductIntrodus from './ProductIntrodus.js';
-import Accordion from './Accordion.js'
+import './Components/Bubble.css'
+import Swiper from'./Components/Swiper.js';
+import Product from'./Components/Product.js';
+import SlideMenu from './Components/SlideMenu.js';
+import ProductIntrodus from './Components/ProductIntrodus.js';
+import Accordion from './Components/Accordion.js';
+import Contact from './ContactPage/cCntact.js'
 //Import Images
  export default function App() {
   const [accordionOpened, setAccordionOpened] = useState(null);
@@ -15,7 +18,6 @@ import Accordion from './Accordion.js'
       setAccordionOpened(accordion);
     }
   };
-
   const products = [
     {
       title: "Chocolate Chip Cookies",
@@ -74,17 +76,27 @@ import Accordion from './Accordion.js'
   ];
 
   return (
+    <Router>
+      <Routes>
+          <Route path="/Contact" element={<Contact/>} />
+      </Routes>
+  
     <div className="App">
           <div className="container">
+              
       <header>
         <SlideMenu />
+        
       </header>
+      
       <section className="slider">
         <Swiper />
       </section>
+      </div> 
       <section className='products'>
         <Product />
       </section>
+      
       <section className='product-introdus'>
         <ProductIntrodus />
       </section>
@@ -98,8 +110,10 @@ import Accordion from './Accordion.js'
         />
       ))}
       </section>
+    
+    
     </div>
-    </div>
+    </Router>
   );
 }
 
