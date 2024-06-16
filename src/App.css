@@ -8,7 +8,7 @@
   padding: 0;
 }
 body{
-  font-family: "Readex Pro", sans-serif;
+  font-family: "Rubik", sans-serif;
   margin: 0;
 }
 
@@ -16,7 +16,6 @@ body{
   display: flex;
   z-index: 1;
   justify-content: space-between;
-  font-family: "Rubik", sans-serif;
 }
 .logo img {
   width: 70px;
@@ -47,7 +46,7 @@ body{
 }
 .search {
   position: absolute;
-  top: 50%;
+  top: 60%;
   right: 15px;
   width: 300px;
   height: 50px;
@@ -118,6 +117,7 @@ h1{
   margin-top: 200px;
   margin-bottom: 300px;
   color:#000;
+  font-size: 18px;
 }
 .columen-left1{
   margin: 50px;
@@ -131,17 +131,21 @@ h1{
 }
 /* Accordion */
 .accordion-qustion{
-  /* margin-top: 200px; */
+  
   margin-bottom: 100px;
 }
-.accordion-header {
+.accordion-qustion h1{
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.accordion-header h3{
   color: var(--primary-color);
   padding: 10px;
   border-bottom: 2.5px solid;
   border-image: linear-gradient(to right, rgba(90, 176, 255, 1), rgba(141, 115, 244, 1)) 1;
   cursor: pointer;
   position: relative;
-  
+  font-size: 25px;
 }
 .accordion-indicator {
   color: rgb(28, 106, 215);
@@ -157,3 +161,77 @@ h1{
   padding-left: 10px;
   padding-right: 10px;
 }
+.question-icon{
+  text-align: center;
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  border: 2.5px solid rgb(28, 106, 215);
+  border-radius: 50%;
+}
+.bx-question-mark{
+  padding-top: 10px;
+  font-size: 25px;
+  color: rgb(28, 106, 215);
+}
+/* footer style */
+.footer{
+  background: rgba(141, 115, 244, 1);
+}
+.phone , .mobile , .adress{
+  display: flex;
+  font-size: 20px;
+  padding: 15px;
+  color: #fff;
+  transition: all 0.5s;
+}
+.phone:hover,
+.mobile:hover,
+.adress:hover{
+  color: #000;
+  cursor: pointer;
+}
+.credit{
+  text-align: right;
+  font-size: 15px;
+  font-weight: 700;
+}
+.social-network{
+  text-align: right;
+  color: #fff;
+  font-size: 30px;
+}
+.social-network i{
+  
+  display: inline-flex;
+  font-size: 30px;
+  color: #000;
+  padding: 20px;
+  transition: all 0.5s ;
+}
+.social-network i:hover{
+  color: #fff;
+  cursor: pointer;
+}
+.bxs-phone-call , .bx-mobile , .bxs-location-plus{
+  padding-left: 10px;
+}
+.design{
+  font-weight: 700;
+}
+.design a{
+  text-decoration: none;
+  color: rgba(141, 115, 244, 1);
+}
+.iframe{
+  width:100%;
+  height:600;
+}
+/* Sample Style */
+.sample{
+  overflow: hidden;
+}
+.sample-img{
+  width: 300px;
+  height: 500px;
+} 

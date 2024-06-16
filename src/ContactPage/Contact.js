@@ -26,9 +26,7 @@ export default function Contact(){
                             
                         </form>
                     </div>
-                </div>
-                <div className="box-half">
-                    {/* <div className="row">
+                    <div className="row">
                         <div className="col-12">
                             <h1>ارتباط مستقیم از طریق ایمیل</h1>
                         </div>
@@ -37,10 +35,9 @@ export default function Contact(){
                         <div className="col-12">
                             <h4><a className='Email-link' href="mailto: iamfatimarahimi@gmail.com">iamfatimarahimi@gmail.com</a></h4>
                         </div>
-                    </div> */}
-                    
-                    
                     </div>
+                </div>
+                <div className="box-half"> </div>
                 </div>
               </div>
             

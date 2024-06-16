@@ -8,9 +8,9 @@ import { Autoplay } from 'swiper/modules';
 // import 'swiper/css/Autoplay ';
 //Import images
 import slide1 from '../images/background1.jpg';
-import slide2 from '../images/evening-landscape-minimal-4k-kl.jpg';
-import slide3 from '../images/background2.webp';
-import slide4 from '../images/Slide4.png';
+import slide2 from '../images/background2.jpg';
+import slide3 from '../images/background3.jpg';
+import slide4 from '../images/background4.jpg';
 
 export default () => {
   return (

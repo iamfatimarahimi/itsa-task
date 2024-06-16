@@ -28,6 +28,9 @@ export default function Menu(){
             <li class="nav-item">
               <Link to={"/Contact"} className='nav-link'>تماس با ما</Link>
             </li>
+            <li class="nav-item">
+              <Link to={"/"} className='nav-link'>نمونه کارها</Link>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 دسته بندی خدمات

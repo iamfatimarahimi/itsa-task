@@ -35,12 +35,10 @@
     width: 50%;
     height: 700px;
     text-align: center;
-    background-image: url(../images/conversation.gif);
+    background-image: url(../images/conversation.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background: linear-gradient(90deg, rgba(90, 176, 255, 1) 0%, rgba(141, 115, 244, 1) 100%);
-    border-radius: 150px 0 0 200px; */
 }
 #email{
     padding: 10px 50px;
@@ -49,11 +47,9 @@
     border: 2.5px solid rgba(141, 115, 244, 1);
     margin: 6px;
     margin-top: 20px;
-    font-size: 20px;
     text-align: right;
 }
 .btn{
-    font-size: 20px;
     margin: 6px;
     margin-top: 20px;
     background: linear-gradient(90deg, rgba(90, 176, 255, 1) 0%, rgba(141, 115, 244, 1) 100%);

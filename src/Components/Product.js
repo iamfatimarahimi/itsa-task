@@ -51,7 +51,7 @@ export default function ImageFluid(){
                             <div className="item-image">
                                <a href=""><img className='icon-image' src={icon6} alt="icon-1"/></a> 
                             </div>
-                            <a className='title-link' href="https://codepen.io/alphardex/pen/jOWMGON">کشکول</a>
+                            <a className='title-link' href="https://codepen.io/alphardex/pen/jOWMGON">غیره</a>
                         </div>
 
                         <div className="col-3 ">                           

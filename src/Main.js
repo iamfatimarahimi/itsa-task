@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import './App.css';
 import './Components/Bubble.css'
@@ -6,72 +5,9 @@ import Swiper from'./Components/Swiper.js';
 import Product from'./Components/Product.js';
 import SlideMenu from './Components/SlideMenu.js';
 import ProductIntrodus from './Components/ProductIntrodus.js';
-import Accordion from './Components/Accordion.js';
+import Footer from './Components/Footer.js';
+import Accordion1 from './Accordion1.jsx'
 export default function Main(){
-      const [accordionOpened, setAccordionOpened] = useState(null);
-  const toggleAccordionOpened = (accordion) => {
-    if (accordionOpened === accordion) {
-      setAccordionOpened(null);
-    } else {
-      setAccordionOpened(accordion);
-    }
-  };
-  const products = [
-    {
-      title: "Chocolate Chip Cookies",
-      body: `Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Sed pulvinar sapien sed enim blandit, quis
-        mollis leo pretium. Phasellus non dui neque.
-        Maecenas tincidunt ipsum vel nulla suscipit
-        interdum. Sed varius arcu et imperdiet iaculis.
-        Vestibulum mattis magna vitae scelerisque
-        porttitor. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos
-        himenaeos. Etiam semper ligula a tellus volutpat,
-        et aliquet nibh commodo.`,
-    },
-    {
-      title: "Other Cookies",
-      body: `Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Sed pulvinar sapien sed enim blandit, quis
-        mollis leo pretium. Phasellus non dui neque.
-        Maecenas tincidunt ipsum vel nulla suscipit
-        interdum. Sed varius arcu et imperdiet iaculis.
-        Vestibulum mattis magna vitae scelerisque
-        porttitor. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos
-        himenaeos. Etiam semper ligula a tellus volutpat,
-        et aliquet nibh commodo.`,
-    },
-
-    {
-      title: "Other Cookies!",
-      body: `Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Sed pulvinar sapien sed enim blandit, quis
-        mollis leo pretium. Phasellus non dui neque.
-        Maecenas tincidunt ipsum vel nulla suscipit
-        interdum. Sed varius arcu et imperdiet iaculis.
-        Vestibulum mattis magna vitae scelerisque
-        porttitor. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos
-        himenaeos. Etiam semper ligula a tellus volutpat,
-        et aliquet nibh commodo.`,
-    },
-
-    {
-      title: "Other Oreos",
-      body: `Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Sed pulvinar sapien sed enim blandit, quis
-        mollis leo pretium. Phasellus non dui neque.
-        Maecenas tincidunt ipsum vel nulla suscipit
-        interdum. Sed varius arcu et imperdiet iaculis.
-        Vestibulum mattis magna vitae scelerisque
-        porttitor. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos
-        himenaeos. Etiam semper ligula a tellus volutpat,
-        et aliquet nibh commodo.`,
-    },
-  ];
     return(
         <>
             <div className="App">
@@ -93,17 +29,18 @@ export default function Main(){
       <section className='product-introdus'>
         <ProductIntrodus />
       </section>
-      <section className='accordion-qustion'>
+      <section className='accordion-qustion text-center'>
+         <div className="question-icon text-center">
+          <i class='bx bx-question-mark'></i>
+          
+        </div>
         <h1 className="text-center">سولات متدوال</h1>
-        {products.map((product) => (
-        <Accordion
-          accordionOpened={accordionOpened}
-          setAccordionOpened={toggleAccordionOpened}
-          {...product}
-        />
-      ))}
+        <Accordion1 />
       </section>
-    
+      <footer>
+        <Footer />
+        <p className="text-center design">Design by <a href="mailto: iamfatimarahimi@gmail.com">fatima Rahimi</a></p>
+      </footer>
     
     </div>
         </>
