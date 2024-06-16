@@ -1,0 +1,63 @@
+.form-wrapper {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.box{
+    width: 50%;
+    height: 600px;
+    text-align: center;
+    margin-top: 15px;
+}
+.user-name input{
+    position: relative;
+    margin: 20px;
+    border: 2.5px solid rgba(141, 115, 244, 1);
+    border-radius: 30px;
+    background: transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: all .5s ease-in-out;
+    color:#000;
+    
+}
+.user-name input[type=text]:focus,.email[type=email]:focus {
+    box-shadow: rgba(5, 71, 253, 0.35) 0px 5px 15px;
+    border: 2.5px solid rgba(141, 115, 244, 1);
+    outline: none;
+}
+
+.box-half{
+    margin-top: 15px;
+    width: 50%;
+    height: 700px;
+    text-align: center;
+    background-image: url(../images/conversation.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(90deg, rgba(90, 176, 255, 1) 0%, rgba(141, 115, 244, 1) 100%);
+    border-radius: 150px 0 0 200px; */
+}
+#email{
+    padding: 10px 50px;
+}
+.form-control{
+    border: 2.5px solid rgba(141, 115, 244, 1);
+    margin: 6px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: right;
+}
+.btn{
+    font-size: 20px;
+    margin: 6px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, rgba(90, 176, 255, 1) 0%, rgba(141, 115, 244, 1) 100%);
+}
+.Email-link{
+    text-decoration: none;
+}

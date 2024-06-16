@@ -38,7 +38,7 @@ export default () => {
         
     </Swiper>
     <div className="search">
-          <input type="text" placeholder="...جستجو " />
+          <input type="search" placeholder="...جستجو " />
           <div className="search-wrapper">
             <i className="bx bx-search-alt-2"></i>
           </div>

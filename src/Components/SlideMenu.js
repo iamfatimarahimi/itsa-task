@@ -23,10 +23,10 @@ export default function Menu(){
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <Link to={"/Contact"} className='nav-link'>تماس با ما</Link>
+              <Link to={"/"} className='nav-link'>خانه</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">درباره فروشگاه</a>
+              <Link to={"/Contact"} className='nav-link'>تماس با ما</Link>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
