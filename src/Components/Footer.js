@@ -1,7 +1,8 @@
 export default function Footer(){
 return(
-    <div className="footer">
+    <div className="body">
         <div className="container">
+            <div className="footer">
             <div className="contact-info">      
                 <div className="adress">
                     <p>آدرس</p>
@@ -17,19 +18,16 @@ return(
                 <i class='bx bxs-phone-call' ></i>
                 </div>
              </div> 
-        <div className="credit">
-            Designed for Itsa Company
-        </div>
-            <hr /> 
-        
             <div className="social-network">
                 <p>شبکه های اجتماعی ما</p>         
             <a href=""><i class='bx bxl-instagram'></i></a>
             <a href=""><i class='bx bxl-telegram'></i></a>
             <a href=""><i class='bx bxl-whatsapp-square'></i></a>
+            <p className="design">Designed by <a href="mailto: iamfatimarahimi@gmail.com">Fatima Rahimi</a></p>
             </div> 
     
         </div>
+    </div>
     </div>
 )
 }

@@ -175,8 +175,14 @@ h1{
   color: rgb(28, 106, 215);
 }
 /* footer style */
-.footer{
+.body{
   background: rgba(141, 115, 244, 1);
+}
+.footer{
+  display: flex;
+}
+.contact-info{
+  width: 50%;
 }
 .phone , .mobile , .adress{
   display: flex;
@@ -196,13 +202,15 @@ h1{
   font-size: 15px;
   font-weight: 700;
 }
-.social-network{
-  text-align: right;
+.social-network
+{
+  margin-top: 10%;
+  width: 50%;
+  text-align: center;
   color: #fff;
   font-size: 30px;
 }
 .social-network i{
-  
   display: inline-flex;
   font-size: 30px;
   color: #000;
@@ -218,10 +226,11 @@ h1{
 }
 .design{
   font-weight: 700;
+  font-size: 15px;
 }
 .design a{
   text-decoration: none;
-  color: rgba(141, 115, 244, 1);
+  
 }
 .iframe{
   width:100%;
