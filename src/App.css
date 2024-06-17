@@ -147,20 +147,9 @@ h1{
   position: relative;
   font-size: 25px;
 }
-.accordion-indicator {
-  color: rgb(28, 106, 215);
-  position: absolute;
-  font-size: 30px;
-  right: 30px;
-  top: 24px;
-}
-.accordion-body {
-  color: var(--primary-color);
-  text-align: left;
-  font-size: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
+ .accordion-content p{
+  text-decoration: none;
+ }
 .question-icon{
   text-align: center;
   margin: 0 auto;
@@ -230,7 +219,7 @@ h1{
 }
 .design a{
   text-decoration: none;
-  
+  color: #000;
 }
 .iframe{
   width:100%;

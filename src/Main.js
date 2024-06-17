@@ -6,7 +6,7 @@ import Product from'./Components/Product.js';
 import SlideMenu from './Components/SlideMenu.js';
 import ProductIntrodus from './Components/ProductIntrodus.js';
 import Footer from './Components/Footer.js';
-import Accordion1 from './Accordion1.jsx'
+import Accordion1 from './Components/Accordion.js'
 export default function Main(){
     return(
         <>
@@ -39,7 +39,6 @@ export default function Main(){
       </section>
       <footer>
         <Footer />
-        <p className="text-center design">Design by <a href="mailto: iamfatimarahimi@gmail.com">fatima Rahimi</a></p>
       </footer>
     
     </div>
