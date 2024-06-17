@@ -235,3 +235,14 @@ h1{
   width: 300px;
   height: 500px;
 } 
+.card{
+  text-align: center;
+  width: 30rem;
+}
+.card-group{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.card-title{
+  color: rgba(141, 115, 244);
+}
